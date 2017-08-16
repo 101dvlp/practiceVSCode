@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function rewrite(){
+            document.getElementById("init").textContent = "changed!";
+        }
+    </script>
+</head>
+<body>
+    <h1>this is sample HTML</h1>
+    <form>
+        <input type="button" value="書き換えを実行" onclick="rewrite()">
+    </form>
+    <p id="init">このタグの中身を書き換えます</p>
+</body>
+</html>
